@@ -33,7 +33,7 @@
 (prefer-coding-system 'utf-8)
 (set-language-environment "UTF-8")
 
-(powerline-default-theme)
+;;(powerline-default-theme)
 
 ;; add custom paths to exec-path
 (setq exec-path (append exec-path '("~/bin")))
