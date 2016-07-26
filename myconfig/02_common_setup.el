@@ -38,6 +38,7 @@
 ;; add custom paths to exec-path
 (setq exec-path (append exec-path '("~/bin")))
 (setq exec-path (append exec-path '("/usr/sbin")))
+(setq exec-path (append exec-path '("/usr/local/bin")))
 
 (defalias 'yes-or-no-p 'y-or-n-p) ;; shorthands for yes and no
 
