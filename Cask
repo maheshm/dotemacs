@@ -62,6 +62,7 @@
 (depends-on "pallet")
 (depends-on "persp-projectile")
 (depends-on "perspective")
+(depends-on "php-mode")
 (depends-on "pkg-info")
 (depends-on "popup")
 (depends-on "popwin")

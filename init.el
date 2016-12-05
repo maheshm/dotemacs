@@ -1,5 +1,12 @@
 ;; Package Manager
 
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (cond
  ((string-equal system-type "darwin") ; for OS X
   (require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el"))
@@ -33,6 +40,7 @@
  '(custom-safe-themes
    (quote
     ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+ '(magit-commit-arguments (quote ("--gpg-sign=EE9946C543068B25")))
  '(markdown-command "rdiscount")
  '(send-mail-function (quote smtpmail-send-it))
  '(smtpmail-smtp-server "smtp.gmail.com")
