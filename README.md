@@ -10,7 +10,7 @@ Hence starting emacs for the first time will take some time, but the later ones 
 Clone this repo in `~/.emacs.d` and make sure you install the submodules:
 
 ```sh
-git clone --recursive git@github.com:maheshm/dotemacs.git .emacs.d
+git clone --recursive git@github.com:maheshm/dotemacs.git ~/.emacs.d
 ```
 
 Now just open emacs and `use-package` will install all packages and byte-compile them.
